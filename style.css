@@ -1,0 +1,403 @@
+* {
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+.head {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+p {
+  color: #272727;
+}
+/* header section */
+.header-section {
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.2);
+  position: relative;
+}
+.header-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-section .box1 h2 {
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: 600;
+  color: #272727;
+}
+.header-section .box1 i {
+  color: #0eb582;
+  font-size: 24px;
+}
+.header-section a {
+  color: #272727;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 600;
+}
+/* /header section */
+/* nav section */
+.nav-section {
+  background-image: url(./images/home-slide-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 30px;
+}
+.nav-section .box1 {
+  color: #f3f3f3;
+  padding-top: 90px;
+}
+.nav-section p {
+  color: #f3f3f3;
+}
+.nav-section h1 {
+  line-height: 1.3;
+  font-weight: 500;
+  font-size: 40px;
+}
+.nav-section p {
+  line-height: 2;
+}
+.nav-section button,
+.footer-section button,
+.famous-section .box112 button,
+.button {
+  padding: 9px 30px;
+  font-size: 18px;
+  color: #0eb582;
+  border: 1px solid #0eb582;
+  background-color: #e9f8f4;
+}
+/* /nav section */
+/* subject section */
+.subject-section {
+  text-align: center;
+}
+.subject-section h2 {
+  margin: 50px 0px 30px;
+}
+.subject-section .box1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.subject-section .box1 > div {
+  border: 1px solid #0eb582;
+  background-color: #e9f8f4;
+  border-radius: 2px;
+  padding: 20px;
+}
+/* /subject section */
+/* courses section */
+
+.courses-section .box1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.courses-section .box1 > div {
+  background-color: #e9f8f4;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px 0;
+}
+.courses-section img {
+  width: 385px;
+}
+/* /courses section */
+/* footer section */
+.footer-section {
+  margin-top: 40px;
+  padding: 30px 0;
+  background-color: #e9f8f4;
+}
+.footer-section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  justify-content: space-between;
+}
+.footer-section .box1 .fa-lightbulb {
+  color: #0eb582;
+}
+.footer-section .box1 span {
+  font-weight: 700;
+}
+.footer-section .box1 p {
+  line-height: 2;
+}
+.footer-section .box10 {
+  display: flex;
+  gap: 10px;
+}
+.footer-section .box10 > div {
+  border: 0;
+  background-color: #0eb582;
+  color: white;
+  width: 40px;
+  padding: 10px 0;
+  text-align: center;
+}
+.footer-section input {
+  padding: 7px;
+  border: 1px solid #0eb582;
+  border-radius: 2px;
+  width: 80%;
+  margin: 15px 0;
+}
+.footer-section .box5 {
+  width: 100%;
+  grid-row: 2 / 3;
+  grid-column: 1/5;
+  text-align: center;
+}
+.footer-section .box5 a {
+  color: #0eb582;
+  text-decoration: none;
+}
+/* /footer section */
+/* nav2 section */
+.nav2-section {
+  background-image: url(./images/heading-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.nav2-section span {
+  color: #0eb582;
+}
+.nav2-section {
+  font-size: 20px;
+}
+/* /nav2 section */
+/* cours2 section */
+.cours2-section {
+  margin-top: 50px;
+}
+.cours2-section .container {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 15px;
+}
+.cours2-section .box1 img {
+  background-color: #e9f8f4;
+  width: 100%;
+  height: 420px;
+}
+.cours2-section .box20 {
+  display: flex;
+  justify-content: space-between;
+}
+.cours2-section .box2 h3 {
+  font-size: 24px;
+}
+.cours2-section .box2 p {
+  line-height: 2;
+}
+.cours2-section .box20 > div {
+  background-color: #e9f8f4;
+  border: 1px solid #0eb582;
+  border-radius: 2px;
+  text-align: center;
+  width: 31%;
+  padding: 20px 0;
+}
+/* /cours2 section */
+/* teacher section */
+.teacher-section .box0 {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+.teacher-section .box0 > div {
+  background-color: #e9f8f4;
+  text-align: center;
+  padding: 10px;
+  width: 32.5%;
+}
+.teacher-section img {
+  width: 300px;
+}
+.teacher-section .box10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* /teacher section */
+/* student section */
+.student-section .box1,
+.student-section .box2 {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+.student-section .box1 > div {
+  background-color: #e9f8f4;
+  border: 1px solid #0eb582;
+  border-radius: 2px;
+  line-height: 2;
+  padding: 20px 10px;
+  text-align: center;
+}
+.student-section .box2 > div {
+  text-align: center;
+  width: 32.5%;
+  margin-top: 40px;
+}
+.student-section img {
+  width: 100px;
+  border-radius: 50%;
+}
+.student-section i {
+  color: #0eb582;
+}
+/* /student section */
+/* Famous secction */
+.famous-section .box1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+.famous-section .box1 > div {
+  border: 1px solid #0eb582;
+  border-radius: 2px;
+  width: 32%;
+}
+.famous-section .box111 {
+  background-image: url(./images/course-2-1.jpg);
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.famous-section .box111 button {
+  padding: 5px 10px;
+}
+.famous-section .box112 {
+  text-align: center;
+  padding: 0 15px;
+}
+.famous-section hr {
+  margin: 10px 0;
+}
+.famous-section .box1120 {
+  display: flex;
+  justify-content: space-between;
+}
+.famous-section i {
+  color: #0eb582;
+}
+.famous-section .button_div {
+  text-align: center;
+  margin: 15px 0;
+}
+/* /famous section */
+/* touch section */
+.touch-section .box1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.touch-section .box1 > div {
+  background-color: #e9f8f4;
+  border: 1px solid #0eb582;
+  padding: 30px;
+  width: 35.5%;
+}
+.touch-section .box1 > div > div {
+  background-color: #0eb582;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 40%;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.touch-section .box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  justify-content: space-between;
+}
+.touch-section .box22 {
+  border: 1px solid #0eb582;
+  border-radius: 2px;
+  padding: 0 2% 2%;
+}
+.touch-section input,
+.touch-section textarea {
+  width: 96%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #0eb582;
+}
+.touch-section img {
+  width: 100%;
+}
+/* /touch section */
+/* partner section */
+.partner-section .box0 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+/* /partner section */
+/* login section */
+.login-section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  border: 1px solid #0eb582;
+  padding: 2%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.login-section i {
+  display: block;
+  text-align: right;
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+.login-section button:nth-child(2) {
+  background-color: #0eb582;
+  color: white;
+}
+.login-section .box1 {
+  border: 1px solid #0eb582;
+  height: 300px;
+  margin: 20px 0;
+  padding: 3%;
+}
+.login-section .box1 input:nth-child(2),
+.login-section .box1 input:nth-child(3) {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #0eb582;
+}
+.login-section .box19 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.login-section .box1 button:last-child {
+  width: 100%;
+}
